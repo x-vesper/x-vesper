@@ -3,16 +3,16 @@
 *Among the Fading Light*
 --- 
 
-### About
+### <span style="color:#A78BFA">About</span>
 An engineer interested in building reliable system, understanding infrastructure, and exploring the lower layers of Linux and networking
 
-### Areas of Interest 
+### <span style="color:#A78BFA">Areas of Interest</span>
 - Linux & Systems Engineering 
 - Go & Backend Infrastructure 
 - Kubernetes & Platform Engineering
 - eBPF & Networking Observability
 
-### Currently exploring
+### <span style="color:#A78BFA">Currently exploring</span>
 Low-level Linux internals,, networking, and resilient inftastructure.
 
 --- 
