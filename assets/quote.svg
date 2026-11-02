@@ -7,18 +7,13 @@
 
     <defs>
         <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#A78BFA"/>
+            <stop offset="0" stop-color="#8B5CF6"/>
             <stop offset="1" stop-color="#B85C5C"/>
         </linearGradient>
 
         <style>
-            .mark { font-family: Georgia, "Times New Roman", serif; font-size: 64px; font-weight: 700; fill: url(#accent); opacity: 0.4; }
-            .text { font-family: Georgia, "Times New Roman", serif; font-size: 24px; font-style: italic; fill: #6C6C6C; }
-
-            @media (prefers-color-scheme: dark) {
-                .mark { opacity: 0.55; }
-                .text { fill: #D8D4DF; opacity: 0.85; }
-            }
+            .mark { font-family: Georgia, "Times New Roman", serif; font-size: 64px; font-weight: 700; fill: url(#accent); opacity: 0.45; }
+            .text { font-family: Georgia, "Times New Roman", serif; font-size: 24px; font-style: italic; fill: #7A7684; }
         </style>
     </defs>
 

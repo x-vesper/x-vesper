@@ -1,46 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="800" height="160"
-     viewBox="0 0 800 160"
+     width="800" height="140"
+     viewBox="0 0 800 140"
      role="img"
      aria-labelledby="vesper-title">
     <title id="vesper-title">Vesper — platform engineer, Linux and systems</title>
 
     <defs>
         <linearGradient id="dusk" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stop-color="#A78BFA"/>
+            <stop offset="0" stop-color="#8B5CF6"/>
             <stop offset="1" stop-color="#B85C5C"/>
         </linearGradient>
 
         <mask id="crescent" maskUnits="userSpaceOnUse">
-            <rect width="800" height="160" fill="#000"/>
-            <circle cx="722" cy="68" r="26" fill="#fff"/>
-            <circle cx="732" cy="60" r="22" fill="#000"/>
+            <rect width="800" height="140" fill="#000"/>
+            <circle cx="712" cy="60" r="25" fill="#fff"/>
+            <circle cx="722" cy="52" r="21" fill="#000"/>
         </mask>
 
         <style>
-            .kicker { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 3px; fill: #6C6C6C; }
-            .name   { font-family: Georgia, "Times New Roman", serif; font-size: 58px; font-weight: 700; letter-spacing: 1px; fill: url(#dusk); }
-            .tagline { font-family: Georgia, "Times New Roman", serif; font-size: 17px; font-style: italic; fill: #6C6C6C; }
-
-            @media (prefers-color-scheme: dark) {
-                .kicker  { fill: #D8D4DF; opacity: 0.65; }
-                .tagline { fill: #D8D4DF; opacity: 0.75; }
-            }
+            .kicker { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 3px; fill: #7A7684; }
+            .name   { font-family: Georgia, "Times New Roman", serif; font-size: 56px; font-weight: 700; letter-spacing: 1px; fill: url(#dusk); }
+            .tagline { font-family: Georgia, "Times New Roman", serif; font-size: 17px; font-style: italic; fill: #7A7684; }
         </style>
     </defs>
 
-    <!-- structural accent -->
-    <rect x="0" y="26" width="3" height="106" rx="1.5" fill="url(#dusk)"/>
+    <!-- accent + moon -->
+    <rect x="0" y="10" width="64" height="3" rx="1.5" fill="url(#dusk)"/>
+    <circle cx="712" cy="60" r="25" fill="url(#dusk)" opacity="0.5" mask="url(#crescent)"/>
+    <circle cx="656" cy="34" r="1.5" fill="#8B5CF6" opacity="0.7"/>
+    <circle cx="680" cy="96" r="1.2" fill="#8B5CF6" opacity="0.5"/>
+    <circle cx="756" cy="28" r="1.8" fill="#B85C5C" opacity="0.6"/>
 
-    <!-- moon mark -->
-    <circle cx="722" cy="68" r="26" fill="url(#dusk)" opacity="0.5" mask="url(#crescent)"/>
-    <circle cx="666" cy="42" r="1.5" fill="#A78BFA" opacity="0.7"/>
-    <circle cx="690" cy="102" r="1.2" fill="#A78BFA" opacity="0.5"/>
-    <circle cx="764" cy="34" r="1.8" fill="#B85C5C" opacity="0.6"/>
+    <text class="kicker" x="0" y="36">PLATFORM ENGINEER · LINUX &amp; SYSTEMS</text>
+    <text class="name" x="-2" y="94">Vesper</text>
+    <text class="tagline" x="0" y="120">Among the fading light.</text>
 
-    <text class="kicker" x="28" y="44">PLATFORM ENGINEER · LINUX &amp; SYSTEMS</text>
-    <text class="name" x="26" y="104">Vesper</text>
-    <text class="tagline" x="29" y="132">Among the fading light.</text>
-
-    <line x1="28" y1="148" x2="772" y2="148" stroke="url(#dusk)" stroke-opacity="0.25" stroke-width="1"/>
+    <line x1="0" y1="132" x2="800" y2="132" stroke="url(#dusk)" stroke-opacity="0.25" stroke-width="1"/>
 </svg>
