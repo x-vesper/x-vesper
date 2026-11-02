@@ -2,10 +2,10 @@
      width="800" height="125"
      viewBox="0 0 800 123">
     <rect width="800" height="125" fill="none"/>
-     <text x="0" y="48"
+     <text x="10" y="48"
            fill="#B85C5C"
            font-family="Georgia, serif"
-           font-size="38"
+           font-size="36"
            font-weight="bold">Vesper</text>
 
 </svg>
