@@ -1,10 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="800" height="60"
-     viewBox="0 0 800 60">
-    <rect width="800" height="60" fill="none"/>
-    <text x="10" y="40"
-          fill="#A78BFA"
-          font-family="Georgia, serif"
-          font-size="28"
-          font-weight="bold">Currently exploring</text>
+     width="800" height="56"
+     viewBox="0 0 800 56"
+     role="img"
+     aria-labelledby="exploring-title">
+    <title id="exploring-title">Currently exploring</title>
+
+    <defs>
+        <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0" stop-color="#A78BFA"/>
+            <stop offset="1" stop-color="#B85C5C"/>
+        </linearGradient>
+
+        <style>
+            .index { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 11px; letter-spacing: 2px; fill: #A78BFA; }
+            .title { font-family: Georgia, "Times New Roman", serif; font-size: 25px; font-weight: 700; letter-spacing: 0.3px; fill: #24212B; }
+            .rule  { stroke: #A78BFA; stroke-opacity: 0.3; stroke-width: 1; }
+
+            @media (prefers-color-scheme: dark) {
+                .title { fill: #D8D4DF; }
+            }
+        </style>
+    </defs>
+
+    <text class="index" x="10" y="35">03</text>
+    <text class="title" x="48" y="36">Currently exploring</text>
+    <rect x="48" y="45" width="42" height="2" rx="1" fill="url(#accent)"/>
+    <line class="rule" x1="303" y1="31" x2="790" y2="31"/>
 </svg>
