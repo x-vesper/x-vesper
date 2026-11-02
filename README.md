@@ -1,4 +1,4 @@
-# Vesper
+# [Vesper](./assets/vesper-header.svg)
 
 ### [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+Engineer;Linux+%26+System)](https://git.io/typing-svg)
 
