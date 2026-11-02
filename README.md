@@ -17,5 +17,5 @@ Low-level Linux internals,, networking, and resilient inftastructure.
 
 --- 
 
-*"in silence, system endure"*
+!["in silence, system endure"](./assets/quote.svg)
 
