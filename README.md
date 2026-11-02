@@ -1,11 +1,11 @@
-#Vesper
+# Vesper
 
-###[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+Engineer;Linux+%26+System)](https://git.io/typing-svg)
+### [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+Engineer;Linux+%26+System)](https://git.io/typing-svg)
 
 *Among the Fading Light*
 --- 
 
-###About
+### About
 An engineer interested in building reliable system, understanding infrastructure, and exploring the lower layers of Linux and networking
 
 ### Areas of Interest 
