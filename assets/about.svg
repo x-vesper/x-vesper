@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="60"
+     viewBox="0 0 800 60">
+    <rect width="800" height="60" fill="none"/>
+    <text x="0" y="40"
+          fill="#A78BFA"
+          font-family="Georgia, serif"
+          font-size="32"
+          font-weight="bold">About</text>
+</svg>
