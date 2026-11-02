@@ -1,7 +1,5 @@
 # [Vesper](./assets/vesper-header.svg)
-
-### [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+Engineer;Linux+%26+System)](https://git.io/typing-svg)
-
+### [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+Engineer;Linux+%26+System&color=#B85C5C)](https://git.io/typing-svg)
 *Among the Fading Light*
 --- 
 
